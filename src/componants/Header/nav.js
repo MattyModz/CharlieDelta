@@ -54,7 +54,7 @@ export default function Nav() {
               </svg>
             </button>
 
-            <div className="hidden lg:flex lg:items-center lg:ml-auto lg:space-x-10">
+            <div className="hidden lg:items-center lg:ml-auto lg:space-x-10 ">
               <a
                 href="#"
                 title=""
@@ -93,7 +93,7 @@ export default function Nav() {
             </div>
 
             <a
-              href="#"
+              href="/https://calendly.com/mcp-link-city-b2r/link-city-30-min-meeting?month=2022-09"
               title=""
               className="items-center justify-center hidden px-4 py-3 ml-10 text-base font-semibold text-white transition-all duration-200 bg-[#2EA5E9] border border-transparent rounded-xl lg:inline-flex hover:bg-blue-700 focus:bg-blue-700"
               role="button"
