@@ -4,13 +4,13 @@ export default function Nav() {
 
   return (
     <>
-      <header class="pb-6 bg-black lg:pb-0 p-8">
-        <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
-          <nav class="flex items-center p justify-between h-16 lg:h-20">
-            <div class="flex-shrink-0 ">
-              <a href="#" title="" class="flex">
+      <header className="pb-6 bg-black lg:pb-0 p-8">
+        <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+          <nav className="flex items-center p justify-between h-16 lg:h-20">
+            <div className="flex-shrink-0 ">
+              <a href="#" title="" className="flex">
                 <Image
-                  class="w-auto h-8 lg:h-10"
+                  className="w-auto h-8 lg:h-10"
                   src="/Logo.svg"
                   height={100}
                   width={200}
@@ -21,10 +21,10 @@ export default function Nav() {
 
             <button
               type="button"
-              class="inline-flex p-2 text-white transition-all duration-200 rounded-md lg:hidden focus:bg-gray-100 hover:bg-gray-100"
+              className="inline-flex p-2 text-white transition-all duration-200 rounded-md lg:hidden focus:bg-gray-100 hover:bg-gray-100"
             >
               <svg
-                class="block w-6 h-6"
+                className="block w-6 h-6"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
@@ -39,7 +39,7 @@ export default function Nav() {
               </svg>
 
               <svg
-                class="hidden w-6 h-6"
+                className="hidden w-6 h-6"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
@@ -54,11 +54,11 @@ export default function Nav() {
               </svg>
             </button>
 
-            <div class="hidden lg:flex lg:items-center lg:ml-auto lg:space-x-10">
+            <div className="hidden lg:flex lg:items-center lg:ml-auto lg:space-x-10">
               <a
                 href="#"
                 title=""
-                class="text-base font-medium text-white transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
+                className="text-base font-medium text-white transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
               >
                 {" "}
                 Mission
@@ -67,7 +67,7 @@ export default function Nav() {
               <a
                 href="#"
                 title=""
-                class="text-base font-medium text-white transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
+                className="text-base font-medium text-white transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
               >
                 {" "}
                 Who are we
@@ -76,7 +76,7 @@ export default function Nav() {
               <a
                 href="#"
                 title=""
-                class="text-base font-medium text-white transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
+                className="text-base font-medium text-white transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
               >
                 {" "}
                 Our work
@@ -85,7 +85,7 @@ export default function Nav() {
               <a
                 href="#"
                 title=""
-                class="text-base font-medium text-white transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
+                className="text-base font-medium text-white transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
               >
                 {" "}
                 Our clients
@@ -95,7 +95,7 @@ export default function Nav() {
             <a
               href="#"
               title=""
-              class="items-center justify-center hidden px-4 py-3 ml-10 text-base font-semibold text-white transition-all duration-200 bg-[#2EA5E9] border border-transparent rounded-xl lg:inline-flex hover:bg-blue-700 focus:bg-blue-700"
+              className="items-center justify-center hidden px-4 py-3 ml-10 text-base font-semibold text-white transition-all duration-200 bg-[#2EA5E9] border border-transparent rounded-xl lg:inline-flex hover:bg-blue-700 focus:bg-blue-700"
               role="button"
             >
               {" "}
