@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <>
       <head>
-        <title>Web Placements</title>
+        <title>Charlie Delta</title>
         <link rel="stylesheet" href="../src/styles/index.scss" />
         <link rel="icon" href="./logo.png"></link>
 
