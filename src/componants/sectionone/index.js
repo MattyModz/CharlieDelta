@@ -33,32 +33,33 @@ function Sectionone() {
         <div className="lg:flex gap-24 py-4 px-8 z-50">
           <div className="lg:w-1/3 p-16 mb-8 bg-gradient-to-b rounded-xl from-[#F08E5A] to-[#FA5245]">
             <div className="flex justify-center">
-              <Image src={"/mcp.svg"} height={150} width={150} />
+              <Image src={"/mcp.svg"} height={250} width={250} />
             </div>
-            <p className="text-center text-2xl   px-8">
-              MCP our powerhouse content factory, Quality surfer optimised SEO
-              content
-            </p>
+            <div className="flex justify-center">
+              {" "}
+              <Image src={"/s2/MCP.svg"} height={250} width={250} />
+            </div>
           </div>
 
           <div className="lg:w-1/3 mb-8 rounded-xl p-16 bg-gradient-to-b rounded-xl from-[#DD9CCE] to-[#B865D3]">
             {" "}
             <div className="flex justify-center">
-              <Image src={"/lc.svg"} height={150} width={150} />
+              <Image src={"/lc.svg"} height={250} width={250} />
             </div>
-            <p className="text-center text-2xl px-8">
-              Link City the ink engineers for your link building needs
-            </p>
+            <div className="flex justify-center">
+              {" "}
+              <Image src={"/s2/LC.svg"} height={250} width={250} />
+            </div>
           </div>
           <div className="lg:w-1/3 mb-8 rounded-xl p-16 bg-gradient-to-b from-[#8C2ADA] to-[#120940]">
             {" "}
             <div className="flex justify-center">
-              <Image src={"/s4h.svg"} height={150} width={150} />
+              <Image src={"/s4h.svg"} height={250} width={250} />
             </div>
-            <p className="text-center text-2xl px-8">
-              Seo for Hire will find the perfect candidate to implement your
-              content and links for killer SEO
-            </p>
+            <div className="flex justify-center">
+              {" "}
+              <Image src={"/s2/MCP.svg"} height={250} width={250} />
+            </div>
           </div>
         </div>
       </div>
