@@ -40,8 +40,9 @@ function Sectionone() {
             </a>
             <div className="flex justify-center">
               {" "}
-              <a href={"https://www.mycontentpal.com"} passHref></a>
-              <Image src={"/s2/MCP.svg"} height={250} width={250} />
+              <a href={"https://www.mycontentpal.com"} passHref>
+                <Image src={"/s2/MCP.svg"} height={250} width={250} />
+              </a>
             </div>
           </div>
 
@@ -54,7 +55,9 @@ function Sectionone() {
             </a>
             <div className="flex justify-center">
               {" "}
-              <Image src={"/s2/LC.svg"} height={250} width={250} />
+              <a href={"https://link-city.co"} passHref>
+                <Image src={"/s2/LC.svg"} height={250} width={250} />
+              </a>
             </div>
           </div>
           <div className="lg:w-1/3 mb-8 rounded-xl p-16 bg-gradient-to-b from-[#8C2ADA] to-[#120940]">
@@ -65,8 +68,9 @@ function Sectionone() {
               </div>
             </a>
             <div className="flex justify-center">
-              {" "}
-              <Image src={"/s2/SFH.svg"} height={250} width={250} />
+              <a href={"https://seoforhire.co"} passHref>
+                <Image src={"/s2/SFH.svg"} height={250} width={250} />
+              </a>
             </div>
           </div>
         </div>
