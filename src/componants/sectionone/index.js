@@ -40,6 +40,7 @@ function Sectionone() {
             </a>
             <div className="flex justify-center">
               {" "}
+              <a href={"https://www.mycontentpal.com"} passHref></a>
               <Image src={"/s2/MCP.svg"} height={250} width={250} />
             </div>
           </div>
