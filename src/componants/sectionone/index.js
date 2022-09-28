@@ -1,5 +1,6 @@
 import React from "react";
 // import Card from "./card";
+import Link from "next/link";
 import Image from "next/image";
 function Sectionone() {
   return (
@@ -32,9 +33,11 @@ function Sectionone() {
         <div className=""></div>
         <div className="lg:flex gap-24 py-4 px-8 z-50">
           <div className="lg:w-1/3 p-16 mb-8 bg-gradient-to-b rounded-xl from-[#F08E5A] to-[#FA5245]">
-            <div className="flex justify-center">
-              <Image src={"/mcp.svg"} height={250} width={250} />
-            </div>
+            <a href={"https://www.mycontentpal.com"} passHref>
+              <div className="flex justify-center">
+                <Image src={"/mcp.svg"} height={250} width={250} />
+              </div>
+            </a>
             <div className="flex justify-center">
               {" "}
               <Image src={"/s2/MCP.svg"} height={250} width={250} />
@@ -43,9 +46,11 @@ function Sectionone() {
 
           <div className="lg:w-1/3 mb-8 rounded-xl p-16 bg-gradient-to-b rounded-xl from-[#DD9CCE] to-[#B865D3]">
             {" "}
-            <div className="flex justify-center">
-              <Image src={"/lc.svg"} height={250} width={250} />
-            </div>
+            <a href={"https://link-city.co"} passHref>
+              <div className="flex justify-center">
+                <Image src={"/lc.svg"} height={250} width={250} />
+              </div>
+            </a>
             <div className="flex justify-center">
               {" "}
               <Image src={"/s2/LC.svg"} height={250} width={250} />
@@ -53,12 +58,14 @@ function Sectionone() {
           </div>
           <div className="lg:w-1/3 mb-8 rounded-xl p-16 bg-gradient-to-b from-[#8C2ADA] to-[#120940]">
             {" "}
-            <div className="flex justify-center">
-              <Image src={"/s4h.svg"} height={250} width={250} />
-            </div>
+            <a href={"https://seoforhire.co"} passHref>
+              <div className="flex justify-center">
+                <Image src={"/s4h.svg"} height={250} width={250} />
+              </div>
+            </a>
             <div className="flex justify-center">
               {" "}
-              <Image src={"/s2/MCP.svg"} height={250} width={250} />
+              <Image src={"/s2/SFH.svg"} height={250} width={250} />
             </div>
           </div>
         </div>
