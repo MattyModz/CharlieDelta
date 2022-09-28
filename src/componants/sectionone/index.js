@@ -1,6 +1,6 @@
 import React from "react";
 // import Card from "./card";
-import Link from "next/link";
+
 import Image from "next/image";
 function Sectionone() {
   return (
