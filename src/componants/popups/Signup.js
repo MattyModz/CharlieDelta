@@ -6,7 +6,7 @@ function Creditshome() {
     <>
       <div>
         <a
-          class="e-widget no-button text-white"
+          className="e-widget no-button text-white"
           href="https://gleam.io/ZQXZ2/win-free-brightonseo-tickets"
           rel="nofollow"
         >
