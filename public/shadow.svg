@@ -1,14 +1,14 @@
-<svg width="1451" height="542" viewBox="0 0 1451 542" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1451" height="543" viewBox="0 0 1451 543" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g opacity="0.5" filter="url(#filter0_f_51_155)">
-<rect x="94" y="94" width="1263" height="354" rx="40" fill="url(#paint0_linear_51_155)"/>
+<path d="M94 134.5C94 112.409 111.909 94.5 134 94.5H1317C1339.09 94.5 1357 112.409 1357 134.5V408.5C1357 430.591 1339.09 448.5 1317 448.5H134C111.909 448.5 94 430.591 94 408.5V134.5Z" fill="url(#paint0_linear_51_155)"/>
 </g>
 <defs>
-<filter id="filter0_f_51_155" x="0" y="0" width="1451" height="542" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter0_f_51_155" x="0" y="0.5" width="1451" height="542" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
 <feGaussianBlur stdDeviation="47" result="effect1_foregroundBlur_51_155"/>
 </filter>
-<linearGradient id="paint0_linear_51_155" x1="787.5" y1="448" x2="787.5" y2="111.5" gradientUnits="userSpaceOnUse">
+<linearGradient id="paint0_linear_51_155" x1="777.5" y1="324" x2="777.5" y2="-12.5" gradientUnits="userSpaceOnUse">
 <stop stop-color="#2EA5E9"/>
 <stop offset="1" stop-color="white" stop-opacity="0"/>
 </linearGradient>

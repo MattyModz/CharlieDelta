@@ -19,7 +19,7 @@ export default function Nav() {
               </a>
             </div>
 
-            <button
+            {/* <button
               type="button"
               className="inline-flex p-2 text-white transition-all duration-200 rounded-md lg:hidden focus:bg-gray-100 hover:bg-gray-100"
             >
@@ -52,7 +52,7 @@ export default function Nav() {
                   d="M6 18L18 6M6 6l12 12"
                 />
               </svg>
-            </button>
+            </button> */}
 
             <div className="hidden lg:items-center lg:ml-auto lg:space-x-10 ">
               <a
@@ -93,9 +93,9 @@ export default function Nav() {
             </div>
 
             <a
-              href="/https://calendly.com/mcp-link-city-b2r/link-city-30-min-meeting?month=2022-09"
+              href="https://calendly.com/mcp-link-city-b2r/link-city-30-min-meeting?month=2022-09"
               title=""
-              className="items-center justify-center hidden px-4 py-3 ml-10 text-base font-semibold text-white transition-all duration-200 bg-[#2EA5E9] border border-transparent rounded-xl lg:inline-flex hover:bg-blue-700 focus:bg-blue-700"
+              className="items-center justify-center  px-4 py-3 ml-10 text-base font-semibold text-white transition-all duration-200 bg-[#2EA5E9] border border-transparent rounded-xl lg:inline-flex hover:bg-blue-700 focus:bg-blue-700"
               role="button"
             >
               {" "}
