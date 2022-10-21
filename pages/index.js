@@ -3,7 +3,6 @@ import Sectionone from "../src/componants/sectionone";
 import Sectiontwo from "../src/componants/Sectiontwo";
 import Sectionthree from "../src/componants/sectionthree";
 import Head from "next/head";
-import Modal from "../src/componants/Modals/Modal";
 
 export default function Home() {
   // const [showModal, setShowModal] = useState(false);
