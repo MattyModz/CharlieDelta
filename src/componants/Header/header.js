@@ -1,9 +1,10 @@
 import Nav from "./nav";
 import React from "react";
+import Head from "next/head";
 const Header = () => {
   return (
     <>
-      <head>
+      <Head>
         <title>Charlie Delta</title>
         <link rel="stylesheet" href="../src/styles/index.scss" />
         <link rel="icon" href="./logo.png"></link>
@@ -13,7 +14,7 @@ const Header = () => {
           src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js"
           async
         ></script>
-      </head>
+      </Head>
 
       <Nav />
     </>

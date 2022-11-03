@@ -34,6 +34,7 @@ export default function Home() {
           property="og:description"
           content="Here's a chance to win free BrightonSEO tickets that are valued at £300. 4000+ talented SEO's attend Brighton each year. It's a great way to network with fellow SEO's and learn more the industry."
         />
+        <title>Charlie Delta Group</title>
       </Head>
       <Hero />
       <Sectionone />
